@@ -1,0 +1,75 @@
+body {
+
+	background-image: url(../images/texture.jpg);
+	background-color: #D3B68D; 
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+
+
+}
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+	border: 2px solid #BF806A ;
+	
+}
+
+header{
+	background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+	height: 173px;
+	
+
+}
+
+header h2{
+	color: #FC9;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-top: 0px;
+
+}
+
+aside{
+	float: left;
+	width: 25%;
+	background-color: #ffcc99;
+	margin-top: 0px;
+
+}
+
+aside ul{
+	list-style-type: none;
+}
+
+aside a{
+	color: #930;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 27px;
+}
+
+article{
+	float: right;
+	width: 70%;
+
+}
+
+article img{
+	float: right;
+
+}
+
+footer{
+	clear: both;
+	background-color: #BF806A;
+	height: 50px;
+}
+
+footer p{
+	float: right;
+}
+

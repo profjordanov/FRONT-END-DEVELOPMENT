@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/design2.css">
+		<title>Анкета</title>
+		<meta name="description" content="Anketa">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Enter Site Title</h1>
+			<h2>Enter Site Slogan</h2>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#Products">Products</a></li>
+				<li><a href="#Services">Services</a></li>
+				<li><a href="#Contacts">Contacts</a></li>
+				<li><a href="#About">About us</a></li>
+			</ul>
+		</header>
+		<article>
+			<form method="post" action="mailto:borry26@gmail.com" class="article">
+			<h3 class="greenh3">Попълнете данните</h3>
+			<form >
+				Вашето име:<input type="text" name="fname" maxlength="25"><br>
+				Вашата фамилия: <input type="text" name="lname" maxlength="25">
+
+
+			<hr>
+
+			<h4>Напишете кратка информация за себе си</h4>
+			<textarea rows="7" cols="30" ></textarea>
+			<img src="images/preview2.jpg" alt="people looking at map">
+			<p > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus.</p>
+
+			<hr>
+
+			<h4>Вашите интереси</h4>
+
+				<label for="programming">Програмиране </label> <input type="checkbox" name="interest" id="programming">
+				<label for="testing">Тестване на софтуер </label> <input type="checkbox" name="interest" id="testing">
+				<br>
+				<label for="wd"> Реклама и уеб дизайн </label> <input type="checkbox" name="interest" id="wd">
+				<label for="other">Други </label> <input type="checkbox" name="interest" id="other">
+
+
+			<br>
+
+			<h4>Демографска информация</h4>
+				Вашият пол е: 
+				<label for="male">Мъж</label> <input type="radio" name="gender" id="male">
+				<label for="female">Жена</label> <input type="radio" name="gender" id="female">
+				<br>
+				Вашата възраст е:
+				<input list="age" name="age">
+				  <datalist id="age">
+				    <option value="10-18">
+				    <option value="18-25">
+				    <option value="26-35">
+				    <option value="36-45">
+				    <option value="46-60">
+				  </datalist>
+
+			<br>
+			<br>
+			
+				<input type="reset" value="Изчисти">
+				<input type="submit" value="Изпрати">
+			</form>
+		</article>
+		<aside>
+			<h3 class="greenh3">Полезни връзки: </h3>
+			<p>Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus.</p>
+			<ul>
+				<li><a href="">Some link</a></li>
+				<li><a href="">Some link</a></li>
+				<li><a href="">Some link</a></li>
+				<li><a href="">Some link</a></li>
+			</ul>
+
+			<br>
+
+			<h3 class="greenh3">Реклама</h3>
+			<p>Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus.</p>
+			<ul>
+				<li><a href="">Some link</a></li>
+				<li><a href="">Some link</a></li>
+				<li><a href="">Some link</a></li>
+				<li><a href="">Some link</a></li>
+			</ul>
+
+		</aside>
+	</main>
+	<footer>
+		<p id="copyright">Copyright 2017. All rights reserved.</p>
+		<p id="email"> <a href="">Web design</a> </p>
+	</footer>	
+</body>
+</html>
