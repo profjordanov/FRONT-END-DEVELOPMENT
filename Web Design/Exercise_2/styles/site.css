@@ -3,7 +3,7 @@ body {
 	background-repeat: repeat-x;
 	font-size: 16px;
 	line-height: 24px;
-	font-family:  Arial, sans-serif; 
+	font-family: Arial, sans-serif;
 	color: #666;
 }
 
@@ -14,8 +14,6 @@ main {
 	padding-bottom: 50px;
 	background-image: url(../images/Bottom_texture.jpg);
 	background-repeat: repeat-y;
-
-
 }
 
 header {
@@ -32,20 +30,16 @@ header h1 {
 	font-weight: normal;
 	text-align: center;
 	padding-top: 50px;
-
-
 }
 
-header h2{
+header h2 {
 	color: #a27060;
 	font-size: 19px;
 	text-align: center;
 	padding-bottom: 20px;
-
 }
 
-header ul{
-	
+header ul {
 	list-style-type: square;
 	margin-bottom: 0px;
 }
@@ -58,84 +52,77 @@ header ul li {
 	padding-right: 20px;
 }
 
-header ul li:last-child{
- border: none;
+header ul li:last-child {
+	border: none;
 }
 
-header ul li a{
+header ul li a {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 18px;
 	color: #060;
 }
 
-
 header ul li a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
-
-article{
+article {
 	width: 70%;
 	float: left;
-
 }
 
-.greenh3{
+.greenh3 {
 	color: #2F4B11;
 	size: 18px;
 }
 
-.article{
+.article {
 	margin-left: 10px;
 	margin-bottom: 30px;
 }
 
-article hr{
+article hr {
 	margin-top: 30px;
 	color: grey;
 }
 
-input[type^="checkbox"]{
+input[type^="checkbox"] {
 	margin-right: 20px;
 }
 
-input[type^="radio"]{
+input[type^="radio"] {
 	margin-right: 20px;
 }
 
-textarea{
+textarea {
 	border-style: dotted;
 }
 
-img{
+img {
 	float: right;
 }
 
-
-aside{
+aside {
 	width: 25%;
 	float: right;
 }
 
-aside ul li a{
+aside ul li a {
 	color: #2F4B11;
-	
 }
 
-aside ul li{
+aside ul li {
 	list-style-type: none;
 	border-bottom-style: solid;
 	border-color: #bbb;
 }
 
-aside ul li:last-child{
- border: none;
+aside ul li:last-child {
+	border: none;
 }
 
-
-
-footer{
+footer {
 	background-color: #96ab98;
 	clear: both;
 	height: 100px;
@@ -144,16 +131,14 @@ footer{
 	text-align: center;
 }
 
-#copyright{
+#copyright {
 	float: left;
 	margin-left: 200px;
 	color: #ebebeb;
-
 }
 
-#email{
+#email {
 	float: right;
 	margin-right: 200px;
 	color: #ebebeb;
-
 }
