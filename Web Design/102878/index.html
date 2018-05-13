@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles/site.css">
+	<title></title>
+	<meta name="exam" content="exam">
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<main>
+		<header>
+			<h1>Enter Site Title</h1>
+			<h2>Enter Site Slogan</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contacts</a></li>
+				<li><a href="#">About us</a></li>
+			</ul>
+		</header>
+		<article>
+			<form method="post" action="mailto:jordanov.jordan@ue-varna.bg" class="article">
+				<hr>
+				<h4>Вашите интереси</h4>
+				<label for="programming">Програмиране </label> <input type="checkbox" name="interest" id="programming">
+				<label for="testing">Тестване на софтуер </label> <input type="checkbox" name="interest" id="testing">
+				<br>
+				<label for="wd"> Реклама и уеб дизайн </label> <input type="checkbox" name="interest" id="wd">
+				<label for="other">Други </label> <input type="checkbox" name="interest" id="other">
+				<br>
+				<h4>Демографска информация</h4>
+				Вашият пол е:
+				<label for="male">Мъж</label> <input type="radio" name="gender" id="male">
+				<label for="female">Жена</label> <input type="radio" name="gender" id="female">
+				<br> Вашата възраст е:
+				<input list="age" name="age">
+				<datalist id="age">
+					<option value="10-18">
+						<option value="18-25">
+							<option value="26-35">
+								<option value="36-45">
+									<option value="46-60">
+				</datalist>
+				<br>
+				<br>
+				<input type="reset" value="Изчисти">
+				<input type="submit" value="Изпрати">
+			</form>
+		</article>
+		<aside>
+			<h3 class="greenh3">LIPSUM</h3>
+		</aside>
+	</main>
+	<footer>
+		<p id="copyright">Copyright 2018 All rights reserved.</p>
+	</footer>
+</body>
+
+</html>
