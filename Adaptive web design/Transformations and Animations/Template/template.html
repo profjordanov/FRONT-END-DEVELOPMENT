@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            align-items: center;
+            background: gold;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            min-height: 100%;
+            padding: 0;
+            width: 100%;
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: relative;
+            -webkit-animation: mymove 5s infinite;
+            /* Safari 4.0 - 8.0 */
+            animation: mymove 5s infinite;
+        }
+
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes mymove {
+            from {
+                top: 0px;
+            }
+
+            to {
+                top: 200px;
+            }
+        }
+
+        /* Standard syntax */
+        @keyframes mymove {
+            0% {
+                top: 0px;
+            }
+
+            25% {
+                top: 200px;
+            }
+
+            75% {
+                top: 50px
+            }
+
+            100% {
+                top: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div></div>
+
+</body>
+
+</html>
