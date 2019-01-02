@@ -3,6 +3,22 @@
 2) 1,4 трилиона долара извършени продажби през мобилни устройства.
 3) 2, 79 милиарда потребители на социални мрежи в световен мащаб. 2,55 от тях ползват мобилни устройства.
 
+## An adaptive website still uses pixels to define the design but instead of letting it be static the designer will use media queries to target specific width to design for.
+
+## A responsive design combines the use of relative units, such as percentages, and combines it with the use of media quires. In this case the media quires aren’t used to target specific devices but rather ranges where the design breaks.
+
+Адаптивен дизайн:
+1) Адаптира се към различни размери на екрана
+2) Използва различни фиксирани размери
+3) Създават се различни дизайни за една и съща страница
+
+Отзивчив дизайн:
+1) Използва процентно базирани правила
+2) елементите на страницата се приспособяват към определена резолюция
+3) Не се правят промени по кода за различните устройства
+4) Mobile-first
+5) Fluid
+
 # Оценаване на ползваемостта:
 
 1) Приблизително 44% от посетителите на е-магазини се влияят от този фактор.
