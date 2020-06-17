@@ -1,0 +1,44 @@
+{
+    "name": "Super Calculator PWA",
+    "description": "Super Calculator is a Progressive Web App to make the basic operations and keep a memory of your recent operations",
+    "categories": ["utilities", "finance", "education"],
+    "lang": "en",
+    "short_name": "Calc",
+    "display": "standalone",
+    "theme_color": "#C43B0E",
+    "background_color": "silver",
+    "orientation": "any",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "icons/icon512_maskable.png",
+            "sizes": "512x512",
+            "purpose": "maskable",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/badge.png",
+            "sizes": "192x192",
+            "purpose": "badge",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon1024.png",
+            "sizes": "1024x1024",
+            "purpose": "any",
+            "type": "image/png"
+        }
+
+    ]
+}

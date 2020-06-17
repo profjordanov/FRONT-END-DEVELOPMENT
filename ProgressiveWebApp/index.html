@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Calculator</title>
+
+    <meta name="google" content="notranslate">
+
+    <link rel="shortcut icon" href="icons/icon96.png">
+    <meta name="theme-color" content="#C43B0E">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/icon180.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/icon120.png">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="app.webmanifest">
+    <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
+
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧮 Calculator</h1>
+        </header>
+        <a id="button_info" href="info.html">ℹ</a>
+        <main>
+            <section id="memory" class="container">
+                <ul></ul>
+                <a id="button_clear" 
+                href="javascript:Calculator.clearMemory()">
+                    clear
+                </a>                
+            </section>
+            <section id="calculator" class="container">
+                <section id="buttons">
+                    <div class="row">
+                        <section id="display" class="col">
+                            <output>134</output>
+                            <div id="cursor"></div>
+                        </section>
+                        <button class="col-3 operator">÷</button>
+                    </div>
+                    <div class="row">
+                        <button class="col">7</button>
+                        <button class="col">8</button>
+                        <button class="col">9</button>
+                        <button class="col operator">𝗑</button>
+                    </div>
+                    <div class="row">
+                        <button class="col">4</button>
+                        <button class="col">5</button>
+                        <button class="col">6</button>
+                        <button class="col operator">+</button>
+                    </div>
+                    <div class="row">
+                        <button class="col">1</button>
+                        <button class="col">2</button>
+                        <button class="col">3</button>
+                        <button class="col operator">-</button>
+                    </div>
+                    <div class="row">
+                        <button class="col special">C</button>
+                        <button class="col">0</button>
+                        <button class="col special">.</button>
+                        <button class="col equals">=</button>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        
+    </div>
+</body>
+</html>
